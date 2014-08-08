@@ -3,3 +3,4 @@ otpauth://totp/alLi1nDICE?secret=VBJ3Q4YTEFWZS&digits=6&icon=GoogleAuthenticator
 otpauth://totp/GOOGLEKIDSDICE?secret=BFZDQLE33PLYM&digits=6
 otpauth://totp/KaizerwDICE?secret=5D2SLWU7ZCYGY&digits=6
 otpauth://totp/Allam+Allamsyah?secret=DJ5GQ5L3F4VA5A64&digits=6&icon=Facebook
+otpauth://totp/VIP.BANK?secret=LI2DKTBRNBVUKVCNGFEUQ22EI54ES6TD&digits=6&icon=Bitcoin
