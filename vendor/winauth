@@ -1,5 +1,5 @@
 otpauth://totp/VIP.BANK?secret=II2YFQABQ5IWVV2T&digits=6&icon=Bitcoin
-otpauth://totp/Justcoin?secret=LI2DKTBRNBVUKVCNGFEUQ22EI54ES6TD&digits=6&icon=Bitcoin
+otpauth://totp/Justcoin?secret=OQYEQUKKKVJUG3LXOVIWKQRUGVEUE6BW&digits=6&icon=Bitcoin
 otpauth://totp/Bx.in.th?secret=K4RVJS6BJU352SUA&digits=6&icon=Bitcoin
 otpauth://totp/alLi1nDICE?secret=VBJ3Q4YTEFWZS&digits=6&icon=GoogleAuthenticator
 otpauth://totp/GOOGLEKIDSDICE?secret=BFZDQLE33PLYM&digits=6
