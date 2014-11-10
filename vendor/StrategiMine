@@ -1,0 +1,25 @@
+//MoneyBot Settings
+var baseBet = 40; //in Bits
+
+//MoneyBot
+var satoshis = baseBet * 100 ;
+var currentBet = satoshis;
+var lastGameLost = false;
+
+engine.onGameStarting = function () {
+    if (engine.lastGameWasLost()) {
+        currentBet *= 1.5;
+        currentBet = Math.round(currentBet/100)*100;
+        console.log('Last Game was lost :(');
+    } else {
+        currentBet = satoshis;
+        console.log('Last game was not lost');
+    }
+    if(currentBet < engine.getBalance()) {
+        engine.placeBet(currentBet, 330, false);
+    }
+    else {
+        engine.stop();
+        console.log('You ran out of bits :(');
+    }
+};
